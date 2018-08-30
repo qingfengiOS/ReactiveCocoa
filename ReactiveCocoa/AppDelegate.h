@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  ReactiveCocoa
 //
-//  Created by 李一平 on 2018/8/27.
+//  Created by 情风 on 2018/8/27.
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 

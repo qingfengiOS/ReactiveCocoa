@@ -1,0 +1,6 @@
+framework module Pods_ReactiveCocoaTests {
+  umbrella header "Pods-ReactiveCocoaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
