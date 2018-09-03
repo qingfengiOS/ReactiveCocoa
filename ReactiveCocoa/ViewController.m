@@ -33,10 +33,10 @@ static NSString *const kCellIdentifier = @"cell";
                        @"Demo07_rac_textSignal",
                        @"Demo08_RACTuple",
                        @"Demo_09_RACSequence",
-                       @"",
-                       @"",
-                       @"",
-                       @"",
+                       @"Demo10_RACSignal_interval_replace_timer",
+                       @"Demo11_RACMulticastConnection",
+                       @"Demo12_rac_liftSelector",
+                       @"Demo13_RACCommand",
                        ];
 }
 

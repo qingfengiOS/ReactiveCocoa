@@ -73,7 +73,6 @@
     NSArray *resArray = mapSequence.array;
     NSLog(@"resArray = %@", resArray);
     
-    
 }
 
 
