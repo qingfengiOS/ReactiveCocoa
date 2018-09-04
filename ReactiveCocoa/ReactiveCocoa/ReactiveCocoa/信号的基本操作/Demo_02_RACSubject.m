@@ -6,14 +6,14 @@
 //  Copyright © 2018年 qingfengiOS. All rights reserved.
 //
 
-#import "Demo_02_RACSubscriber.h"
+#import "Demo_02_RACSubject.h"
 #import <ReactiveObjC.h>
 
-@interface Demo_02_RACSubscriber ()
+@interface Demo_02_RACSubject ()
 
 @end
 
-@implementation Demo_02_RACSubscriber
+@implementation Demo_02_RACSubject
 
 - (void)viewDidLoad {
     [super viewDidLoad];

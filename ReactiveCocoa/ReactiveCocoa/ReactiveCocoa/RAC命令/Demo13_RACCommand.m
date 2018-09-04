@@ -62,7 +62,6 @@
     }];
     
     //command.executionSignals 信号源. 俗称：信号中的信号，发送信号的信号。
-    
     [command.executionSignals subscribeNext:^(RACSignal  *x) {
         
         NSLog(@"executionSignals :%@",x);  //x is thie signal! <<RACDynamicSignal: 0x60c000030600> name:>
@@ -119,7 +118,7 @@
     [signal subscribeNext:^(id  _Nullable x) {
         NSLog(@"接收到了数据： %@",x);
     }];
-    
+
 }
 
 @end
