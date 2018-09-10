@@ -34,6 +34,11 @@
 		FD1A513E213E5A960037DD9B /* Demo22_RACSignal_take.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A513D213E5A960037DD9B /* Demo22_RACSignal_take.m */; };
 		FD1A5141213E5CE20037DD9B /* Demo23_RACSignal_ignore.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A5140213E5CE20037DD9B /* Demo23_RACSignal_ignore.m */; };
 		FD1A5144213E5E1B0037DD9B /* Demo24_RACSignal_skip.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A5143213E5E1B0037DD9B /* Demo24_RACSignal_skip.m */; };
+		FD1F1A532140C6200023062B /* Demo25_RACSignal_startWith.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A522140C6200023062B /* Demo25_RACSignal_startWith.m */; };
+		FD1F1A562140C7850023062B /* Demo26_RACSignal_repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A552140C7850023062B /* Demo26_RACSignal_repeat.m */; };
+		FD1F1A592140C9620023062B /* Demo27_RACSignal_retry.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A582140C9620023062B /* Demo27_RACSignal_retry.m */; };
+		FD47A06321465C3C00B1052E /* Demo28_RACSignal_collect.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47A06221465C3C00B1052E /* Demo28_RACSignal_collect.m */; };
+		FD47A06721465EDA00B1052E /* Demo29_RACSignal_aggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47A06621465EDA00B1052E /* Demo29_RACSignal_aggregate.m */; };
 		FD95C1C72133EE5E00243656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD95C1C62133EE5E00243656 /* AppDelegate.m */; };
 		FD95C1CA2133EE5E00243656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD95C1C92133EE5E00243656 /* ViewController.m */; };
 		FD95C1CD2133EE5E00243656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD95C1CB2133EE5E00243656 /* Main.storyboard */; };
@@ -122,6 +127,17 @@
 		FD1A5140213E5CE20037DD9B /* Demo23_RACSignal_ignore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo23_RACSignal_ignore.m; sourceTree = "<group>"; };
 		FD1A5142213E5E1B0037DD9B /* Demo24_RACSignal_skip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo24_RACSignal_skip.h; sourceTree = "<group>"; };
 		FD1A5143213E5E1B0037DD9B /* Demo24_RACSignal_skip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo24_RACSignal_skip.m; sourceTree = "<group>"; };
+		FD1F1A512140C6200023062B /* Demo25_RACSignal_startWith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo25_RACSignal_startWith.h; sourceTree = "<group>"; };
+		FD1F1A522140C6200023062B /* Demo25_RACSignal_startWith.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo25_RACSignal_startWith.m; sourceTree = "<group>"; };
+		FD1F1A542140C7850023062B /* Demo26_RACSignal_repeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo26_RACSignal_repeat.h; sourceTree = "<group>"; };
+		FD1F1A552140C7850023062B /* Demo26_RACSignal_repeat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo26_RACSignal_repeat.m; sourceTree = "<group>"; };
+		FD1F1A572140C9620023062B /* Demo27_RACSignal_retry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo27_RACSignal_retry.h; sourceTree = "<group>"; };
+		FD1F1A582140C9620023062B /* Demo27_RACSignal_retry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo27_RACSignal_retry.m; sourceTree = "<group>"; };
+		FD47A06121465C3C00B1052E /* Demo28_RACSignal_collect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo28_RACSignal_collect.h; sourceTree = "<group>"; };
+		FD47A06221465C3C00B1052E /* Demo28_RACSignal_collect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo28_RACSignal_collect.m; sourceTree = "<group>"; };
+		FD47A06421465C6300B1052E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FD47A06521465EDA00B1052E /* Demo29_RACSignal_aggregate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo29_RACSignal_aggregate.h; sourceTree = "<group>"; };
+		FD47A06621465EDA00B1052E /* Demo29_RACSignal_aggregate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo29_RACSignal_aggregate.m; sourceTree = "<group>"; };
 		FD95C1C22133EE5E00243656 /* ReactiveCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD95C1C52133EE5E00243656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD95C1C62133EE5E00243656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -281,6 +297,16 @@
 				FD1A5140213E5CE20037DD9B /* Demo23_RACSignal_ignore.m */,
 				FD1A5142213E5E1B0037DD9B /* Demo24_RACSignal_skip.h */,
 				FD1A5143213E5E1B0037DD9B /* Demo24_RACSignal_skip.m */,
+				FD1F1A512140C6200023062B /* Demo25_RACSignal_startWith.h */,
+				FD1F1A522140C6200023062B /* Demo25_RACSignal_startWith.m */,
+				FD1F1A542140C7850023062B /* Demo26_RACSignal_repeat.h */,
+				FD1F1A552140C7850023062B /* Demo26_RACSignal_repeat.m */,
+				FD1F1A572140C9620023062B /* Demo27_RACSignal_retry.h */,
+				FD1F1A582140C9620023062B /* Demo27_RACSignal_retry.m */,
+				FD47A06121465C3C00B1052E /* Demo28_RACSignal_collect.h */,
+				FD47A06221465C3C00B1052E /* Demo28_RACSignal_collect.m */,
+				FD47A06521465EDA00B1052E /* Demo29_RACSignal_aggregate.h */,
+				FD47A06621465EDA00B1052E /* Demo29_RACSignal_aggregate.m */,
 			);
 			path = "信号的数量操作";
 			sourceTree = "<group>";
@@ -326,6 +352,7 @@
 				FD95C1D02133EE5F00243656 /* LaunchScreen.storyboard */,
 				FD95C1D32133EE5F00243656 /* Info.plist */,
 				FD95C1D42133EE5F00243656 /* main.m */,
+				FD47A06421465C6300B1052E /* PrefixHeader.pch */,
 			);
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
@@ -539,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1F1A532140C6200023062B /* Demo25_RACSignal_startWith.m in Sources */,
 				FD1A511A213E2E600037DD9B /* Demo10_RACSignal_interval_replace_timer.m in Sources */,
 				FD1A512E213E36140037DD9B /* Demo18_RACSignal_ReduceEach.m in Sources */,
 				FD1A513E213E5A960037DD9B /* Demo22_RACSignal_take.m in Sources */,
@@ -547,17 +575,21 @@
 				FD1A511C213E2E600037DD9B /* Demo06_rac_addObserverForName.m in Sources */,
 				FDC053402136821B00F7E000 /* BaseViewController.m in Sources */,
 				FD1A5118213E2E600037DD9B /* Demo12_rac_liftSelector.m in Sources */,
+				FD47A06721465EDA00B1052E /* Demo29_RACSignal_aggregate.m in Sources */,
 				FD1A511B213E2E600037DD9B /* Demo05_rac_signalForControlEvents.m in Sources */,
+				FD47A06321465C3C00B1052E /* Demo28_RACSignal_collect.m in Sources */,
 				FD1A5120213E2E600037DD9B /* Demo_01_RACSignal.m in Sources */,
 				FD1A5122213E2E600037DD9B /* Demo13_RACCommand.m in Sources */,
 				FDA4B7272137974D00642F85 /* RACViewController.m in Sources */,
 				FD1A511F213E2E600037DD9B /* Demo_09_RACSequence.m in Sources */,
 				FD1A5117213E2E600037DD9B /* Demo03_rac_signalForSelector.m in Sources */,
 				FD1A5119213E2E600037DD9B /* Demo07_rac_textSignal.m in Sources */,
+				FD1F1A592140C9620023062B /* Demo27_RACSignal_retry.m in Sources */,
 				FD1A5131213E37AE0037DD9B /* Demo19_RACSignal_Scan.m in Sources */,
 				FD1A5144213E5E1B0037DD9B /* Demo24_RACSignal_skip.m in Sources */,
 				FD1A5121213E2E600037DD9B /* Demo08_RACTuple.m in Sources */,
 				FD1A5141213E5CE20037DD9B /* Demo23_RACSignal_ignore.m in Sources */,
+				FD1F1A562140C7850023062B /* Demo26_RACSignal_repeat.m in Sources */,
 				FD95C1D52133EE5F00243656 /* main.m in Sources */,
 				FD1A5125213E2F230037DD9B /* Demo15_RACSignal_map.m in Sources */,
 				FD1A5137213E549E0037DD9B /* Demo20_RAC_Macro.m in Sources */,
@@ -750,7 +782,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ReactiveCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PrefixHeader = YES;
+				PrefixHeader = /Users/liyiping/Desktop/ReactiveCocoa/ReactiveCocoa/PrefixHeader.pch;
 				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoa/ReactiveCocoa/ReactiveCocoa-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -773,7 +805,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ReactiveCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PrefixHeader = YES;
+				PrefixHeader = /Users/liyiping/Desktop/ReactiveCocoa/ReactiveCocoa/PrefixHeader.pch;
 				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoa/ReactiveCocoa/ReactiveCocoa-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

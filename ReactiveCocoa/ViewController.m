@@ -52,7 +52,13 @@ static NSString *const kHeaderIdentifier = @"header";
     NSArray *sectionFourArray = @[@"Demo21_RACSubject_filter",
                                   @"Demo22_RACSignal_take",
                                   @"Demo23_RACSignal_ignore",
-                                  @"Demo24_RACSignal_skip",];
+                                  @"Demo24_RACSignal_skip",
+                                  @"Demo25_RACSignal_startWith",
+                                  @"Demo26_RACSignal_repeat",
+                                  @"Demo27_RACSignal_retry",
+                                  @"Demo28_RACSignal_collect",
+                                  @"Demo29_RACSignal_aggregate",
+                                  ];
     
     self.dataArray = @[sectionOneArray,
                        sectionTwoArray,
