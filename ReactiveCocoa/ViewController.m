@@ -59,16 +59,29 @@ static NSString *const kHeaderIdentifier = @"header";
                                   @"Demo28_RACSignal_collect",
                                   @"Demo29_RACSignal_aggregate",
                                   ];
+    NSArray *sectionFiveArray = @[@"Demo30_RACSignal_delay",
+                                  @"Demo31_RACSubject_throttle"];
+    
+    NSArray *sectionSixArray = @[@"Demo32_RACSignal_concat",
+                                 @"Demo33_RACSignal_merge",
+                                 @"Demo34_RACSignal_zip",
+                                 @"",];
     
     self.dataArray = @[sectionOneArray,
                        sectionTwoArray,
                        sectionThreeArray,
-                       sectionFourArray];
+                       sectionFourArray,
+                       sectionFiveArray,
+                       sectionSixArray,
+                       ];
     
     self.sectionTitleArray = @[@"信号的基本操作",
                                @"RAC命令(RACCommand)",
                                @"信号的值操作",
-                               @"信号的数量操作"];
+                               @"信号的数量操作",
+                               @"信号的时间操作",
+                               @"信号的组合操作"];
+    
 }
 
 
