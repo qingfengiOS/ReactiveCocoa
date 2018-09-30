@@ -55,6 +55,14 @@
 		FDA4B7272137974D00642F85 /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA4B7262137974D00642F85 /* RACViewController.m */; };
 		FDA4B73021379D0200642F85 /* RACView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA4B72F21379D0200642F85 /* RACView.m */; };
 		FDC053402136821B00F7E000 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC0533F2136821B00F7E000 /* BaseViewController.m */; };
+		FDCC97F321605F0B0008A421 /* Demo35_RACSignal_combineLatest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC97F221605F0B0008A421 /* Demo35_RACSignal_combineLatest.m */; };
+		FDCC97F62160631F0008A421 /* Demo36_RACSignal_sample.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC97F52160631F0008A421 /* Demo36_RACSignal_sample.m */; };
+		FDCC97F9216069120008A421 /* Demo37_RACSignal_takeUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC97F8216069120008A421 /* Demo37_RACSignal_takeUntil.m */; };
+		FDCC97FC21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC97FB21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.m */; };
+		FDCC97FF21606C350008A421 /* Demo39_RACSignal_then.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC97FE21606C350008A421 /* Demo39_RACSignal_then.m */; };
+		FDCC980321606E120008A421 /* Demo40_RACSubject_switchToLatest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC980221606E120008A421 /* Demo40_RACSubject_switchToLatest.m */; };
+		FDCC980621606E210008A421 /* Demo41_RACSignal_ifThenElse.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC980521606E210008A421 /* Demo41_RACSignal_ifThenElse.m */; };
+		FDCC980921606E2F0008A421 /* Demo42_RACSignal_flatten.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCC980821606E2F0008A421 /* Demo42_RACSignal_flatten.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +183,22 @@
 		FDA4B72F21379D0200642F85 /* RACView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACView.m; sourceTree = "<group>"; };
 		FDC0533E2136821B00F7E000 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		FDC0533F2136821B00F7E000 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FDCC97F121605F0B0008A421 /* Demo35_RACSignal_combineLatest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo35_RACSignal_combineLatest.h; sourceTree = "<group>"; };
+		FDCC97F221605F0B0008A421 /* Demo35_RACSignal_combineLatest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo35_RACSignal_combineLatest.m; sourceTree = "<group>"; };
+		FDCC97F42160631F0008A421 /* Demo36_RACSignal_sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo36_RACSignal_sample.h; sourceTree = "<group>"; };
+		FDCC97F52160631F0008A421 /* Demo36_RACSignal_sample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo36_RACSignal_sample.m; sourceTree = "<group>"; };
+		FDCC97F7216069120008A421 /* Demo37_RACSignal_takeUntil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo37_RACSignal_takeUntil.h; sourceTree = "<group>"; };
+		FDCC97F8216069120008A421 /* Demo37_RACSignal_takeUntil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo37_RACSignal_takeUntil.m; sourceTree = "<group>"; };
+		FDCC97FA21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo38_RACSignal_takeUntilReplacement.h; sourceTree = "<group>"; };
+		FDCC97FB21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo38_RACSignal_takeUntilReplacement.m; sourceTree = "<group>"; };
+		FDCC97FD21606C350008A421 /* Demo39_RACSignal_then.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo39_RACSignal_then.h; sourceTree = "<group>"; };
+		FDCC97FE21606C350008A421 /* Demo39_RACSignal_then.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo39_RACSignal_then.m; sourceTree = "<group>"; };
+		FDCC980121606E120008A421 /* Demo40_RACSubject_switchToLatest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo40_RACSubject_switchToLatest.h; sourceTree = "<group>"; };
+		FDCC980221606E120008A421 /* Demo40_RACSubject_switchToLatest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo40_RACSubject_switchToLatest.m; sourceTree = "<group>"; };
+		FDCC980421606E210008A421 /* Demo41_RACSignal_ifThenElse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo41_RACSignal_ifThenElse.h; sourceTree = "<group>"; };
+		FDCC980521606E210008A421 /* Demo41_RACSignal_ifThenElse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo41_RACSignal_ifThenElse.m; sourceTree = "<group>"; };
+		FDCC980721606E2F0008A421 /* Demo42_RACSignal_flatten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo42_RACSignal_flatten.h; sourceTree = "<group>"; };
+		FDCC980821606E2F0008A421 /* Demo42_RACSignal_flatten.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo42_RACSignal_flatten.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +272,16 @@
 				FD0D26B7215CAC7A000B2A87 /* Demo33_RACSignal_merge.m */,
 				FD0D26C5215CD701000B2A87 /* Demo34_RACSignal_zip.h */,
 				FD0D26C6215CD701000B2A87 /* Demo34_RACSignal_zip.m */,
+				FDCC97F121605F0B0008A421 /* Demo35_RACSignal_combineLatest.h */,
+				FDCC97F221605F0B0008A421 /* Demo35_RACSignal_combineLatest.m */,
+				FDCC97F42160631F0008A421 /* Demo36_RACSignal_sample.h */,
+				FDCC97F52160631F0008A421 /* Demo36_RACSignal_sample.m */,
+				FDCC97F7216069120008A421 /* Demo37_RACSignal_takeUntil.h */,
+				FDCC97F8216069120008A421 /* Demo37_RACSignal_takeUntil.m */,
+				FDCC97FA21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.h */,
+				FDCC97FB21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.m */,
+				FDCC97FD21606C350008A421 /* Demo39_RACSignal_then.h */,
+				FDCC97FE21606C350008A421 /* Demo39_RACSignal_then.m */,
 			);
 			path = "信号的组合操作";
 			sourceTree = "<group>";
@@ -255,6 +289,7 @@
 		FD1A50F5213E2E600037DD9B /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				FDCC980021606DFF0008A421 /* 信号的降阶操作 */,
 				FD0D26B2215CA9DF000B2A87 /* 信号的组合操作 */,
 				FD0D26AB215C898D000B2A87 /* 信号的时间操作 */,
 				FD1A5138213E56C30037DD9B /* 信号的数量操作 */,
@@ -414,6 +449,19 @@
 				FD95C1EB2133EE5F00243656 /* Info.plist */,
 			);
 			path = ReactiveCocoaUITests;
+			sourceTree = "<group>";
+		};
+		FDCC980021606DFF0008A421 /* 信号的降阶操作 */ = {
+			isa = PBXGroup;
+			children = (
+				FDCC980121606E120008A421 /* Demo40_RACSubject_switchToLatest.h */,
+				FDCC980221606E120008A421 /* Demo40_RACSubject_switchToLatest.m */,
+				FDCC980421606E210008A421 /* Demo41_RACSignal_ifThenElse.h */,
+				FDCC980521606E210008A421 /* Demo41_RACSignal_ifThenElse.m */,
+				FDCC980721606E2F0008A421 /* Demo42_RACSignal_flatten.h */,
+				FDCC980821606E2F0008A421 /* Demo42_RACSignal_flatten.m */,
+			);
+			path = "信号的降阶操作";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -609,13 +657,18 @@
 			files = (
 				FD1F1A532140C6200023062B /* Demo25_RACSignal_startWith.m in Sources */,
 				FD1A511A213E2E600037DD9B /* Demo10_RACSignal_interval_replace_timer.m in Sources */,
+				FDCC980321606E120008A421 /* Demo40_RACSubject_switchToLatest.m in Sources */,
+				FDCC980621606E210008A421 /* Demo41_RACSignal_ifThenElse.m in Sources */,
+				FDCC97F321605F0B0008A421 /* Demo35_RACSignal_combineLatest.m in Sources */,
 				FD1A512E213E36140037DD9B /* Demo18_RACSignal_ReduceEach.m in Sources */,
 				FD1A513E213E5A960037DD9B /* Demo22_RACSignal_take.m in Sources */,
+				FDCC97FC21606BA70008A421 /* Demo38_RACSignal_takeUntilReplacement.m in Sources */,
 				FD0D26B8215CAC7A000B2A87 /* Demo33_RACSignal_merge.m in Sources */,
 				FD0D26B1215C8B7C000B2A87 /* Demo31_RACSubject_throttle.m in Sources */,
 				FD95C1CA2133EE5E00243656 /* ViewController.m in Sources */,
 				FD1A5128213E2F4F0037DD9B /* Demo16_RACSignal_flattenMap.m in Sources */,
 				FD1A511C213E2E600037DD9B /* Demo06_rac_addObserverForName.m in Sources */,
+				FDCC97F9216069120008A421 /* Demo37_RACSignal_takeUntil.m in Sources */,
 				FDC053402136821B00F7E000 /* BaseViewController.m in Sources */,
 				FD0D26AE215C89B6000B2A87 /* Demo30_RACSignal_delay.m in Sources */,
 				FD1A5118213E2E600037DD9B /* Demo12_rac_liftSelector.m in Sources */,
@@ -633,9 +686,12 @@
 				FD1A5131213E37AE0037DD9B /* Demo19_RACSignal_Scan.m in Sources */,
 				FD1A5144213E5E1B0037DD9B /* Demo24_RACSignal_skip.m in Sources */,
 				FD1A5121213E2E600037DD9B /* Demo08_RACTuple.m in Sources */,
+				FDCC97FF21606C350008A421 /* Demo39_RACSignal_then.m in Sources */,
+				FDCC980921606E2F0008A421 /* Demo42_RACSignal_flatten.m in Sources */,
 				FD0D26C7215CD701000B2A87 /* Demo34_RACSignal_zip.m in Sources */,
 				FD1A5141213E5CE20037DD9B /* Demo23_RACSignal_ignore.m in Sources */,
 				FD1F1A562140C7850023062B /* Demo26_RACSignal_repeat.m in Sources */,
+				FDCC97F62160631F0008A421 /* Demo36_RACSignal_sample.m in Sources */,
 				FD95C1D52133EE5F00243656 /* main.m in Sources */,
 				FD1A5125213E2F230037DD9B /* Demo15_RACSignal_map.m in Sources */,
 				FD1A5137213E549E0037DD9B /* Demo20_RAC_Macro.m in Sources */,

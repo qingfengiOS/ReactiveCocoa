@@ -65,7 +65,15 @@ static NSString *const kHeaderIdentifier = @"header";
     NSArray *sectionSixArray = @[@"Demo32_RACSignal_concat",
                                  @"Demo33_RACSignal_merge",
                                  @"Demo34_RACSignal_zip",
-                                 @"",];
+                                 @"Demo35_RACSignal_combineLatest",
+                                 @"Demo36_RACSignal_sample",
+                                 @"Demo37_RACSignal_takeUntil",
+                                 @"Demo38_RACSignal_takeUntilReplacement",
+                                 @"Demo39_RACSignal_then"];
+    
+    NSArray *sectionSevenArray = @[@"Demo40_RACSubject_switchToLatest",
+                                   @"Demo41_RACSignal_ifThenElse",
+                                   @"Demo42_RACSignal_flatten"];
     
     self.dataArray = @[sectionOneArray,
                        sectionTwoArray,
@@ -73,6 +81,7 @@ static NSString *const kHeaderIdentifier = @"header";
                        sectionFourArray,
                        sectionFiveArray,
                        sectionSixArray,
+                       sectionSevenArray
                        ];
     
     self.sectionTitleArray = @[@"信号的基本操作",
@@ -80,7 +89,8 @@ static NSString *const kHeaderIdentifier = @"header";
                                @"信号的值操作",
                                @"信号的数量操作",
                                @"信号的时间操作",
-                               @"信号的组合操作"];
+                               @"信号的组合操作",
+                               @"信号的降阶操作"];
     
 }
 
