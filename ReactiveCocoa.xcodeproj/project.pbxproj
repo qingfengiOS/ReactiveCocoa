@@ -42,6 +42,9 @@
 		FD1F1A532140C6200023062B /* Demo25_RACSignal_startWith.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A522140C6200023062B /* Demo25_RACSignal_startWith.m */; };
 		FD1F1A562140C7850023062B /* Demo26_RACSignal_repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A552140C7850023062B /* Demo26_RACSignal_repeat.m */; };
 		FD1F1A592140C9620023062B /* Demo27_RACSignal_retry.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1F1A582140C9620023062B /* Demo27_RACSignal_retry.m */; };
+		FD24D4CD2169941E001E7E0C /* Demo_43_bind.m in Sources */ = {isa = PBXBuildFile; fileRef = FD24D4CC2169941E001E7E0C /* Demo_43_bind.m */; };
+		FD24D4CE216997F5001E7E0C /* Demo_43_bind.h in Sources */ = {isa = PBXBuildFile; fileRef = FD24D4CB2169941E001E7E0C /* Demo_43_bind.h */; };
+		FD24D4D121699828001E7E0C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FD24D4D021699828001E7E0C /* Person.m */; };
 		FD47A06321465C3C00B1052E /* Demo28_RACSignal_collect.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47A06221465C3C00B1052E /* Demo28_RACSignal_collect.m */; };
 		FD47A06721465EDA00B1052E /* Demo29_RACSignal_aggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD47A06621465EDA00B1052E /* Demo29_RACSignal_aggregate.m */; };
 		FD95C1C72133EE5E00243656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD95C1C62133EE5E00243656 /* AppDelegate.m */; };
@@ -156,6 +159,10 @@
 		FD1F1A552140C7850023062B /* Demo26_RACSignal_repeat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo26_RACSignal_repeat.m; sourceTree = "<group>"; };
 		FD1F1A572140C9620023062B /* Demo27_RACSignal_retry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo27_RACSignal_retry.h; sourceTree = "<group>"; };
 		FD1F1A582140C9620023062B /* Demo27_RACSignal_retry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo27_RACSignal_retry.m; sourceTree = "<group>"; };
+		FD24D4CB2169941E001E7E0C /* Demo_43_bind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_43_bind.h; sourceTree = "<group>"; };
+		FD24D4CC2169941E001E7E0C /* Demo_43_bind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_43_bind.m; sourceTree = "<group>"; };
+		FD24D4CF21699828001E7E0C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FD24D4D021699828001E7E0C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		FD47A06121465C3C00B1052E /* Demo28_RACSignal_collect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo28_RACSignal_collect.h; sourceTree = "<group>"; };
 		FD47A06221465C3C00B1052E /* Demo28_RACSignal_collect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo28_RACSignal_collect.m; sourceTree = "<group>"; };
 		FD47A06421465C6300B1052E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -460,6 +467,10 @@
 				FDCC980521606E210008A421 /* Demo41_RACSignal_ifThenElse.m */,
 				FDCC980721606E2F0008A421 /* Demo42_RACSignal_flatten.h */,
 				FDCC980821606E2F0008A421 /* Demo42_RACSignal_flatten.m */,
+				FD24D4CB2169941E001E7E0C /* Demo_43_bind.h */,
+				FD24D4CC2169941E001E7E0C /* Demo_43_bind.m */,
+				FD24D4CF21699828001E7E0C /* Person.h */,
+				FD24D4D021699828001E7E0C /* Person.m */,
 			);
 			path = "信号的降阶操作";
 			sourceTree = "<group>";
@@ -475,6 +486,8 @@
 				FD95C1BE2133EE5E00243656 /* Sources */,
 				FD95C1BF2133EE5E00243656 /* Frameworks */,
 				FD95C1C02133EE5E00243656 /* Resources */,
+				D9468FD4A7D406748382371C /* [CP] Embed Pods Frameworks */,
+				7D462C37410AEA17E5605EC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -493,6 +506,8 @@
 				FD95C1D62133EE5F00243656 /* Sources */,
 				FD95C1D72133EE5F00243656 /* Frameworks */,
 				FD95C1D82133EE5F00243656 /* Resources */,
+				529E7DD32A8A4F654A8599A4 /* [CP] Embed Pods Frameworks */,
+				59F32678920FCBF22679B9FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -512,6 +527,8 @@
 				FD95C1E12133EE5F00243656 /* Sources */,
 				FD95C1E22133EE5F00243656 /* Frameworks */,
 				FD95C1E32133EE5F00243656 /* Resources */,
+				EEC43F6F6DF4F2577EA579EA /* [CP] Embed Pods Frameworks */,
+				308155DD436855B2D7481522 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -612,6 +629,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		308155DD436855B2D7481522 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaUITests/Pods-ReactiveCocoaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529E7DD32A8A4F654A8599A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaTests/Pods-ReactiveCocoaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		55B721759C17360B9E5CE4F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,6 +675,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F32678920FCBF22679B9FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaTests/Pods-ReactiveCocoaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7727F01FC0D9B2B6481D0A5A /* [CP] Check Pods Manifest.lock */ = {
@@ -648,6 +710,51 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7D462C37410AEA17E5605EC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9468FD4A7D406748382371C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC43F6F6DF4F2577EA579EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaUITests/Pods-ReactiveCocoaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -655,6 +762,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD24D4CE216997F5001E7E0C /* Demo_43_bind.h in Sources */,
 				FD1F1A532140C6200023062B /* Demo25_RACSignal_startWith.m in Sources */,
 				FD1A511A213E2E600037DD9B /* Demo10_RACSignal_interval_replace_timer.m in Sources */,
 				FDCC980321606E120008A421 /* Demo40_RACSubject_switchToLatest.m in Sources */,
@@ -675,6 +783,7 @@
 				FD47A06721465EDA00B1052E /* Demo29_RACSignal_aggregate.m in Sources */,
 				FD1A511B213E2E600037DD9B /* Demo05_rac_signalForControlEvents.m in Sources */,
 				FD47A06321465C3C00B1052E /* Demo28_RACSignal_collect.m in Sources */,
+				FD24D4D121699828001E7E0C /* Person.m in Sources */,
 				FD0D26B5215CA9FC000B2A87 /* Demo32_RACSignal_concat.m in Sources */,
 				FD1A5120213E2E600037DD9B /* Demo_01_RACSignal.m in Sources */,
 				FD1A5122213E2E600037DD9B /* Demo13_RACCommand.m in Sources */,
@@ -687,6 +796,7 @@
 				FD1A5144213E5E1B0037DD9B /* Demo24_RACSignal_skip.m in Sources */,
 				FD1A5121213E2E600037DD9B /* Demo08_RACTuple.m in Sources */,
 				FDCC97FF21606C350008A421 /* Demo39_RACSignal_then.m in Sources */,
+				FD24D4CD2169941E001E7E0C /* Demo_43_bind.m in Sources */,
 				FDCC980921606E2F0008A421 /* Demo42_RACSignal_flatten.m in Sources */,
 				FD0D26C7215CD701000B2A87 /* Demo34_RACSignal_zip.m in Sources */,
 				FD1A5141213E5CE20037DD9B /* Demo23_RACSignal_ignore.m in Sources */,

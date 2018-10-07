@@ -73,7 +73,8 @@ static NSString *const kHeaderIdentifier = @"header";
     
     NSArray *sectionSevenArray = @[@"Demo40_RACSubject_switchToLatest",
                                    @"Demo41_RACSignal_ifThenElse",
-                                   @"Demo42_RACSignal_flatten"];
+                                   @"Demo42_RACSignal_flatten",
+                                   @"Demo_43_bind"];
     
     self.dataArray = @[sectionOneArray,
                        sectionTwoArray,

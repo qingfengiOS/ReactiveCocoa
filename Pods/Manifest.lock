@@ -4,13 +4,9 @@ PODS:
 DEPENDENCIES:
   - ReactiveObjC (~> 3.1.0)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - ReactiveObjC
-
 SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
 PODFILE CHECKSUM: a5fc1143d8066b205be74415707068750dbc87e5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0
